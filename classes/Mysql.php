@@ -17,7 +17,7 @@ class Mysql {
 
 	
 
-	$query = "SELECT * FROM users WHERE username = ? AND password = ? LIMIT 1";
+	$query = "SELECT * FROM appuser WHERE user_name = ? AND password = ? LIMIT 1";
 
 	if($stmt = $this->conn->prepare($query)) {
 		$stmt->bind_param('ss',$un, $pwd);
