@@ -11,7 +11,7 @@ p{
 /* NAVIGATION STYLE */
 nav {
 	height: 100px;
-	background-color: blue;
+	background-color: #4978bf;
 	color: white;
 }
 nav ul {
@@ -20,7 +20,6 @@ nav ul {
 	justify-content: space-around;
 }
 nav ul li {
-	--display: inline-block;
 	padding: 40px 0 0 0;
 	list-style: none;
 }
@@ -34,9 +33,12 @@ nav ul li {
 
 	height: 500px;
 	background: Aquamarine;
+	background-image: url("../images/skyline.jpg");
+	background-size: cover;
+	opacity: 0.5;
 }
 #home-banner h1 {
-	font-size: 60px;
+	font-size: 80px;
 	color: white;
 }
 
@@ -60,11 +62,10 @@ nav ul li {
 footer {
 	display: flex;
 	flex-direction: row;
-	---justify-content: flex-start;
 	align-items: flex-end;
 
 	height: 200px;
-	background-color: CadetBlue;
+	background-color: #4978bf;
 }
 footer p {
 	padding: 30px;
