@@ -22,34 +22,46 @@ if($_POST && !empty($_POST['username']) && !empty($_POST['pwd']))
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+
 <title>Login to access page</title>
 
-
+<link rel="stylesheet" href="css/awesome-style.css">
 
 </head>
 <body>
- <div id="login">
-<form method="post" action="">
-<h2>Login <small>enter your credentials </small></h2>
 
-<p>
-<label for="name">Username: </label>
-<input type="text" name="username"/>
-</p>
-<!--<link rel="stylesheet" type="text/css" href="css/default.css" /> -->
-<p>
-<label for="pwd">Password: </label>
-<input type="password" name="pwd"/>
-</p>
 
-<p>
-<input type ="submit" id="submit" value="Login" name="submit" />
-</p>
+	<?php include ('_nav-bar.php') ?>
 
-</form>
+	<div id="login-div">
+		<div id="login">
+		<form method="post" action="">
 
-<?php if(isset($response)) echo "<h4 class='alert'>" . $response . "</h4>"; ?>
- </div>
+		<h2>Login <small>enter your credentials </small></h2>
+
+		<p>
+		<label for="name">Username: </label>
+		<input type="text" name="username"/>
+		</p>
+		<!--<link rel="stylesheet" type="text/css" href="css/default.css" /> -->
+		<p>
+		<label for="pwd">Password: </label>
+		<input type="password" name="pwd"/>
+		</p>
+
+		<p>
+		<input class="btn" type="submit" id="submit" value="Login" name="submit" />
+		</p>
+
+		</form>
+
+		<?php if(isset($response)) echo "<h4 class='alert'>" . $response . "</h4>"; ?>
+		 </div>
+	</div>
+
+
+<?php include ('_footer.php') ?>
+
 
 </body>
 </html>

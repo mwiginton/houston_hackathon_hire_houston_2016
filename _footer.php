@@ -1,5 +1,5 @@
 <footer>
 
-	<p>I am a footer :D</p>
+	<a href="index-2.php">Logout</a>
 
 </footer>
