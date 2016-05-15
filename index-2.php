@@ -7,17 +7,15 @@
 	console.log("JS working");
 	</script>
 
-
+<link rel="stylesheet" href="css/awesome-style.css">
 
 </head>
 <body>
 
 	<? include ('_nav-bar.php') ?>
 
-	<h2>About us</h2>
 
-	<p>paragraph</p>
-
+	<? include ('_about-us.html') ?>
 
 
 	<? include ('_footer.php') ?>
