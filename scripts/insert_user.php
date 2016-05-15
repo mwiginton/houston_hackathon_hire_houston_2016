@@ -1,16 +1,9 @@
 <?php
 require_once 'classes/Mysql.php';
-if(isset($_POST['btn-save']))
-{
 	// variables for input data
-	$type = $_POST['type'];
-	$name = $_POST['name'];
-	$phone = $_POST['phone'];
-	 
-	// sql query for inserting data into database
-
-	$sql_query = "INSERT INTO employer(name,phone) VALUES('$name','$phone');";
-	mysql_query($sql_query);
-	
-}
+	$user_name = $_POST['user_name'];
+	$password = $_POST['password'];
+    
+    $sql_query = "INSERT INTO appuser(user_name, password, type) VALUES('$user_name','$password', 3);";
+    mysql_query($sql_query);
 ?>

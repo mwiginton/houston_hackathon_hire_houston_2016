@@ -1,14 +1,16 @@
 <?php
 
-require_once 'includes/constants.php';
+require_once '../includes/constants.php';
 
 class Mysql {
 
-	private $conn;
+	public $conn;
 
 	function __construct()
 	{
 		$this->conn = new mysqli(DB_SERVER, DB_USER, DB_PASSWORD, DB_NAME) or die('there was a problem connecting to the db');
+        
+        
 	}
 
 
