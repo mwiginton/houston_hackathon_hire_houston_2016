@@ -14,13 +14,13 @@
 </head>
 <body>
 
-	<? include ('_nav-bar.php') ?>
+	<?php include ('_nav-bar.php') ?>
 
 
-	<? include ('_about-us.html') ?>
+	<?php include ('_about-us.html') ?>
 
 
-	<? include ('_footer.php') ?>
+	<?php include ('_footer.php') ?>
 
 </body>
 </html>
