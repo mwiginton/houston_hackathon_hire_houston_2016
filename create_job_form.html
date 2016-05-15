@@ -1,4 +1,30 @@
 <form action="scripts/insert_job.php" method="post" enctype="multipart/form-data" id="create_job" >
+
+<?php
+require_once '../classes/Mysql.php';
+
+    $mysqlObj = new Mysql();
+
+	$query = "SELECT * FROM employer";
+
+$sql="select * from category "; // Query to collect data from table 
+
+foreach ($dbo->query($sql) as $row) {
+echo "<option value=$row[cat_id]>$row[category]</option>";
+}
+    
+	if($stmt = $mysqlObj->conn->prepare("SELECT * FROM employer")) {
+		$stmt->bind_param('ss',$un, $pwd);
+		$stmt->execute();
+
+		if($stmt->fetch())
+		{
+			$stmt->close();
+			return $un;
+		}
+	}
+?>
+
     <div>
         <span>User ID:</span>
         <input type='text' size='8' name='employer_user_id' placeholder='' />
