@@ -8,15 +8,9 @@ if(isset($_POST['btn-save']))
 	$phone = $_POST['phone'];
 	 
 	// sql query for inserting data into database
-	if ($type == 1)
-	{
-		$sql_query = "INSERT INTO employer(name,phone) VALUES('$name','$phone');";
- 		mysql_query($sql_query);
-	}
-	else
-	{
 
-	}
+	$sql_query = "INSERT INTO employer(name,phone) VALUES('$name','$phone');";
+	mysql_query($sql_query);
 	
 }
 ?>
