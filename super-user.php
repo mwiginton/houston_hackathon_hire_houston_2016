@@ -14,6 +14,7 @@
 			<li>Home</li>
 			<li>Search Jobs</li>
 			<li>Apply</li>
+			<li><a href="index-2.php">Logout</a></li>
 		</ul>
 	</nav>
 
@@ -42,16 +43,12 @@
 			
 		</div>
 
-		<form action="http://localhost/hireHouston/houston_hackathon_hire_houston_2016/form-appuser.html">
-    <input class="btn" type="submit" value="ADD NEW USER">
-</form>
-	</div>
+	<form action="http://localhost/hireHouston/houston_hackathon_hire_houston_2016/form-appuser.html">
+    	<input class="btn" type="submit" value="ADD NEW USER">
+	</form>
+		</div>
 
-<footer>
-
-	<a href="index-2.php">Logout</a>
-
-</footer>
+	<?php include ('_footer.php') ?> 
 
 </body>
 </html>
