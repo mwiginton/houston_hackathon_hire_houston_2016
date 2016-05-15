@@ -1,1 +1,8 @@
-<div>Embeded Navigation Bar!</div>
+<nav>
+	<ul>
+		<li>Link</li>
+		<li>Link</li>
+		<li>Link</li>
+		<li>Link</li>
+	</ul>
+</nav>

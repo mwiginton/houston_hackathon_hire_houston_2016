@@ -1,0 +1,71 @@
+
+/* FULL PAGE STYLE */
+* {
+	margin: 0px;
+}
+
+p{
+	line-height: 2;
+}
+
+/* NAVIGATION STYLE */
+nav {
+	height: 100px;
+	background-color: blue;
+	color: white;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav ul li {
+	--display: inline-block;
+	padding: 40px 0 0 0;
+	list-style: none;
+}
+
+/* IMAGE BANNER */
+#home-banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	height: 500px;
+	background: Aquamarine;
+}
+#home-banner h1 {
+	font-size: 60px;
+	color: white;
+}
+
+/* ABOUT US */
+#about-us {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	padding: 0px 150px 0 150px;
+	height: 500px;
+}
+
+#about-us h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+	display: flex;
+	flex-direction: row;
+	---justify-content: flex-start;
+	align-items: flex-end;
+
+	height: 200px;
+	background-color: CadetBlue;
+}
+footer p {
+	padding: 30px;
+}
