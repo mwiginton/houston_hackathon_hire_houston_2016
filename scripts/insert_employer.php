@@ -12,16 +12,16 @@ require_once '../classes/Mysql.php';
 	$mysqlObj = new Mysql();
 	if($stmt = $mysqlObj->conn->prepare($sql_query)) {
 		$stmt->execute();
-		//$stmt->close();
+		$stmt->close();
 	}
     
-    //$employee_id = mysql_insert_id();
+    $employee_id = mysql_insert_id();
     
-    $sql_query = " INSERT INTO employer(user_id,name,phone) VALUES(1,'$name','$phone');";
-	$mysqlObj = new Mysql();
-	if($stmt = $mysqlObj->conn->prepare($sql_query)) {
-		$stmt->execute();
-		$stmt->close();
+    $sql_query2 = " INSERT INTO employer(user_id,name,phone) VALUES('$employee_id','$name','$phone');";
+	$mysqlObj2 = new Mysql();
+	if($stmt2 = $mysqlObj2->conn->prepare($sql_query2)) {
+		$stmt2->execute();
+		$stmt2->close();
 	}
     
 ?>

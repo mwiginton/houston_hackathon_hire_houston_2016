@@ -1,8 +1,8 @@
 <?php
 
-require_once '../includes/constants.php';
+require_once 'includes/constants.php';
 
-class Mysql {
+class Mysql2 {
 
 	public $conn;
 

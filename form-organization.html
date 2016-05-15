@@ -8,9 +8,11 @@
 
 	<h2>Organization Form</h2>
 
-	<form>
+	<form action="scripts/insert_organization.php" method="post" enctype="multipart/form-data" id="create_org" >
 
-		User ID: <input type="text" name="user_id"/><br/>
+
+		User Name: <input type="text" name="user_name"/><br/>
+		Password: <input type="text" name="password"/><br/>
 		Name: <input type="text" name="name"/><br/>
 		Phone: <input type="text" name="phone"/><br/>
 
@@ -18,8 +20,12 @@
 
 
 
+
 	</form>
 
+	<form action="http://localhost/hireHouston/houston_hackathon_hire_houston_2016/employer-view.php">
+    <input type="submit" value="Back">
+</form>
 
 
 
