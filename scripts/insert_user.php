@@ -7,9 +7,11 @@ require_once '../classes/Mysql.php';
     
     $sql_query = "INSERT INTO appuser(user_name, password, type) VALUES('$user_name','$password', '$type');";
     $mysqlObj = new Mysql();
-    
+
 	if($stmt = $mysqlObj->conn->prepare($sql_query)) {
 		$stmt->execute();
 		$stmt->close();
 	}
+
+		header('location: ../form-appuser.html');
 ?>
