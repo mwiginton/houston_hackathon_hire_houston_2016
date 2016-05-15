@@ -60,7 +60,7 @@ if($_POST && !empty($_POST['username']) && !empty($_POST['pwd']))
 	</div>
 
 	<form action="http://localhost/hireHouston/houston_hackathon_hire_houston_2016/index-2.php">
-    <input type="submit" value="BACK">
+    <input class="btn" type="submit" value="BACK">
 </form>
 
 

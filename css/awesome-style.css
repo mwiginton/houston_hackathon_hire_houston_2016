@@ -23,6 +23,7 @@ a:hover {
 	border: 1px solid black;
 	padding: 15px;
 	font-size: 15px;
+	background-color: white;
 }
 
 .btn:hover {
