@@ -9,7 +9,14 @@
 </head>
 <body>
 
-	<?php include ('_nav-bar.php') ?>
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Search Jobs</li>
+			<li>Apply</li>
+		</ul>
+	</nav>
+
 
 	<div id="super-usr">
 		<h1>Logged In as Super User</h1>
@@ -40,7 +47,11 @@
 </form>
 	</div>
 
-<?php include ('_footer.php') ?>
+<footer>
+
+	<a href="index-2.php">Logout</a>
+
+</footer>
 
 </body>
 </html>

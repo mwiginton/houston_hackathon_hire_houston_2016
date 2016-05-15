@@ -1,5 +1,5 @@
 <footer>
 
-	<a href="index-2.php">Logout</a>
+	<p>Houston Hackathon 2016</p>
 
 </footer>

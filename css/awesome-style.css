@@ -144,3 +144,8 @@ footer {
 footer a {
 	padding: 30px;
 }
+footer p {
+	padding: 30px;
+	color: black;
+	opacity: 0.4;
+}
