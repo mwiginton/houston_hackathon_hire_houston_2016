@@ -19,8 +19,11 @@
 </div>
 
 
-<? include ('_footer.php') ?>
+<?php include ('_footer.php') ?>
 
+<form action="http://localhost/hireHouston/houston_hackathon_hire_houston_2016/form-organization.html">
+    <input type="submit" value="ADD NEW NON PROFIT ORG">
+</form>
 
 </body>
 </html>
