@@ -1,8 +1,8 @@
 <nav>
 	<ul>
-		<li>Link</li>
-		<li>Link</li>
-		<li>Link</li>
+		<li>Home</li>
+		<li>Search Jobs</li>
+		<li>Apply</li>
 		<li><a href="login.php">Login</a></li>
 	</ul>
 </nav>

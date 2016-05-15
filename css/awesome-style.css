@@ -8,6 +8,15 @@ p{
 	line-height: 2;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #B0C4DE;
+}
+
 /* NAVIGATION STYLE */
 nav {
 	height: 100px;
@@ -58,6 +67,27 @@ nav ul li {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
+
+/* SUPER USER VIEW */
+
+#super-usr {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	padding-top: 120px;
+	padding-bottom: 200px;
+
+}
+
+
+
+
+
+
+
 
 /* FOOTER */
 footer {
