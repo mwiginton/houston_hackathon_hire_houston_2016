@@ -23,5 +23,7 @@ require_once '../classes/Mysql.php';
 		$stmt2->execute();
 		$stmt2->close();
 	}
+
+	header('location: form-employer.html');
     
 ?>

@@ -20,8 +20,8 @@
 	<? include '_pending-verification.php' ?>
 </div>
 
-<form action="http://localhost/hireHouston/houston_hackathon_hire_houston_2016/form-organization.html">
-    <input type="submit" value="ADD NEW ORG">
+<form action="http://localhost/hireHouston/houston_hackathon_hire_houston_2016/form-employer.html">
+    <input type="submit" value="ADD NEW EMPLOYER">
 </form>
 
 
